@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [23/Jan/2018:00:03:37 +0100] "GET /UserInfo HTTP/1.1" 200 1352 http-bio-8080-exec-1 1665
+0:0:0:0:0:0:0:1 - - [23/Jan/2018:00:03:37 +0100] "GET /css/bootstrap.min.css HTTP/1.1" 200 144877 http-bio-8080-exec-2 9
+0:0:0:0:0:0:0:1 - - [23/Jan/2018:00:03:38 +0100] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 1001 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [23/Jan/2018:00:03:44 +0100] "GET / HTTP/1.1" 200 1238 http-bio-8080-exec-4 4
+0:0:0:0:0:0:0:1 - - [23/Jan/2018:00:03:44 +0100] "GET /css/bootstrap.min.css HTTP/1.1" 200 144877 http-bio-8080-exec-9 3
+0:0:0:0:0:0:0:1 - - [23/Jan/2018:00:03:44 +0100] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 1001 http-bio-8080-exec-10 2
+0:0:0:0:0:0:0:1 - - [23/Jan/2018:00:03:55 +0100] "POST /UserInfo HTTP/1.1" 200 1403 http-bio-8080-exec-10 146
+0:0:0:0:0:0:0:1 - - [23/Jan/2018:00:03:55 +0100] "GET /css/bootstrap.min.css HTTP/1.1" 200 144877 http-bio-8080-exec-10 3
+0:0:0:0:0:0:0:1 - - [23/Jan/2018:00:03:55 +0100] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 1001 http-bio-8080-exec-10 2
