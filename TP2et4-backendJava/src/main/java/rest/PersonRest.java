@@ -1,13 +1,18 @@
 package rest;
+import Entities.ElectronicDevice;
+import Entities.Heater;
+import dao.*;
 
 /**
  * Created by othmane on 24/01/2018.
  */
 import Entities.Home;
 import Entities.Personne;
-import dao.HomeDAO;
-import dao.PersonDAO;
+import dao.SingletonEntityManager;
 
+import javax.annotation.PostConstruct;
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -15,6 +20,8 @@ import java.util.List;
 
 @Path("/person")
 public class PersonRest {
+
+
 
     @GET
     @Path("/{id}")

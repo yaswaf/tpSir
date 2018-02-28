@@ -27,20 +27,20 @@ public class HomeDAO implements GenericDao<Home,Long>{
 	}
 
 	public Home read(Long id) {
-		return EntityManagerHelper.getEntityManager().find(Home.class, id);
+		return SingletonEntityManager.getInstance().find(Home.class, id);
 	}
 
 	public Home update(Home t) {
-		return EntityManagerHelper.getEntityManager().merge(t);
+		return SingletonEntityManager.getInstance().merge(t);
 	}
 
 	public void delete(Home t) {
-		EntityManagerHelper.getEntityManager().remove(t);
+		SingletonEntityManager.getInstance().remove(t);
 		
 	}
 
 	public List<Home> readAll() {
-		return EntityManagerHelper.getEntityManager().createQuery("select h from Home as h").getResultList();
+		return SingletonEntityManager.getInstance().createQuery("select h from Home as h").getResultList();
 	}
 
 }

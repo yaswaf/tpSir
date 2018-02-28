@@ -20,6 +20,9 @@ public class PersonDAO implements GenericDao<Personne, Long> {
         transaction.begin();
         manager.persist(o);
         transaction.commit();*/
+        //SingletonEntityManager.getInstance().getTransaction().begin();
+        //SingletonEntityManager.getInstance().persist(o);
+        //SingletonEntityManager.getInstance().getTransaction().commit();
         EntityManagerHelper.getEntityManager().getTransaction().begin();
         EntityManagerHelper.getEntityManager().persist(o);
         EntityManagerHelper.getEntityManager().getTransaction().commit();
@@ -27,29 +30,29 @@ public class PersonDAO implements GenericDao<Personne, Long> {
     }
 
     public Personne read(Long id) {
-        return EntityManagerHelper.getEntityManager().find(Personne.class, id);
+        return SingletonEntityManager.getInstance().find(Personne.class, id);
     }
 
     public List<Personne> readByName(String name) {
-        return EntityManagerHelper.getEntityManager().createQuery("select p from Personne as p where p.nom = :name").setParameter("name", name).getResultList();
+        return  SingletonEntityManager.getInstance().createQuery("select p from Personne as p where p.nom = :name").setParameter("name", name).getResultList();
     }
 
 
     public List<Personne> readAll() {
-        return EntityManagerHelper.getEntityManager().createQuery("Select p from Personne as p").getResultList();
+        return  SingletonEntityManager.getInstance().createQuery("Select p from Personne as p").getResultList();
     }
 
     public Personne update(Personne t) {
-        return EntityManagerHelper.getEntityManager().merge(t);
+        return  SingletonEntityManager.getInstance().merge(t);
     }
 
     public void delete(Personne t) {
-        EntityManagerHelper.getEntityManager().remove(t);
+        SingletonEntityManager.getInstance().remove(t);
 
     }
 
     List<Personne> getByMailDomain(String domain) {
-        return EntityManagerHelper.getEntityManager().createQuery("select p from Personne as p where p.nom like '%.':domain").setParameter(domain, domain).getResultList();
+        return  SingletonEntityManager.getInstance().createQuery("select p from Personne as p where p.mail like '%.'+:domain").setParameter(domain,domain).getResultList();
     }
 
 

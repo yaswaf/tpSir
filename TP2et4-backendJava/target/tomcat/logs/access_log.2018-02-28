@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:23:16:20 +0100] "GET / HTTP/1.1" 200 1306 http-bio-8080-exec-3 45
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:23:16:20 +0100] "GET /css/bootstrap.min.css HTTP/1.1" 200 144877 http-bio-8080-exec-5 5
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:23:16:21 +0100] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-6 6
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:23:16:32 +0100] "GET /rest/person/all HTTP/1.1" 500 20619 http-bio-8080-exec-7 3243
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:23:17:42 +0100] "GET /rest/person/all HTTP/1.1" 200 12 http-bio-8080-exec-3 3387
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:23:21:43 +0100] "GET /rest/person/all HTTP/1.1" 200 12 http-bio-8080-exec-1 2903
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:23:36:34 +0100] "GET /rest/person/all HTTP/1.1" 200 122 http-bio-8080-exec-1 3014
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:23:36:49 +0100] "GET /rest/person/all HTTP/1.1" 200 232 http-bio-8080-exec-2 49
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:23:37:02 +0100] "GET /rest/person/all HTTP/1.1" 200 343 http-bio-8080-exec-3 39
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:23:37:03 +0100] "GET /rest/person/all HTTP/1.1" 200 453 http-bio-8080-exec-4 45
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:23:37:03 +0100] "GET /rest/person/all HTTP/1.1" 200 563 http-bio-8080-exec-5 34
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:23:37:04 +0100] "GET /rest/person/all HTTP/1.1" 200 673 http-bio-8080-exec-6 38
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:23:37:05 +0100] "GET /rest/person/all HTTP/1.1" 200 783 http-bio-8080-exec-7 78
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:23:42:13 +0100] "GET /rest/person/all HTTP/1.1" 200 268 http-bio-8080-exec-2 2400
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:23:44:54 +0100] "GET /rest/person/all HTTP/1.1" 200 268 http-bio-8080-exec-2 2440

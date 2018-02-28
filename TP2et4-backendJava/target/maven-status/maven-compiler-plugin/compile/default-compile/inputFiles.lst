@@ -1,20 +1,20 @@
-C:\work\TP2et4\src\main\java\Org\JpaTest.java
-C:\work\TP2et4\src\main\java\rest\HomeRest.java
-C:\work\TP2et4\src\main\java\dao\EntityManagerHelper.java
-C:\work\TP2et4\src\main\java\dao\HeaterDAO.java
-C:\work\TP2et4\src\main\java\Entities\Heater.java
-C:\work\TP2et4\src\main\java\Entities\Personne.java
-C:\work\TP2et4\src\main\java\dao\HomeDAO.java
-C:\work\TP2et4\src\main\java\servlet\MyServlet.java
-C:\work\TP2et4\src\main\java\Entities\Home.java
-C:\work\TP2et4\src\main\java\rest\PersonRest.java
-C:\work\TP2et4\src\main\java\servlet\UserInfo.java
-C:\work\TP2et4\src\main\java\dao\PersonDAO.java
-C:\work\TP2et4\src\main\java\Entities\ElectronicDevice.java
-C:\work\TP2et4\src\main\java\dao\ElectronicDeviceDAO.java
-C:\work\TP2et4\src\main\java\rest\Exemple.java
-C:\work\TP2et4\src\main\java\dao\GenericDao.java
-C:\work\TP2et4\src\main\java\servlet\HomeInfo.java
-C:\work\TP2et4\src\main\java\Entities\IntelligentDevice.java
-C:\work\TP2et4\src\main\java\Org\App.java
-C:\work\TP2et4\src\main\java\dao\SingletonEntityManager.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\Entities\Personne.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\rest\HomeRest.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\dao\SingletonEntityManager.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\dao\GenericDao.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\dao\HeaterDAO.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\Entities\Heater.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\dao\PersonDAO.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\Entities\Home.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\servlet\HomeInfo.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\Org\JpaTest.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\dao\EntityManagerHelper.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\Entities\ElectronicDevice.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\Entities\IntelligentDevice.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\dao\ElectronicDeviceDAO.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\servlet\MyServlet.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\servlet\UserInfo.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\rest\PersonRest.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\dao\HomeDAO.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\Org\App.java
+C:\work\git pushes\TP2et4-backendJava\src\main\java\rest\Exemple.java

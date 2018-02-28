@@ -26,16 +26,16 @@ public class HeaterDAO implements GenericDao<Heater,Long> {
 	}
 
 	public Heater read(Long id) {
-		return EntityManagerHelper.getEntityManager().find(Heater.class, id);
+		return SingletonEntityManager.getInstance().find(Heater.class, id);
 		
 	}
 
 	public Heater update(Heater t) {
-		return EntityManagerHelper.getEntityManager().merge(t);
+		return SingletonEntityManager.getInstance().merge(t);
 	}
 
 	public void delete(Heater t) {
-		EntityManagerHelper.getEntityManager().remove(t);
+		SingletonEntityManager.getInstance().remove(t);
 		
 	}
 

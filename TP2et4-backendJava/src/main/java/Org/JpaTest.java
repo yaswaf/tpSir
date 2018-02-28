@@ -66,19 +66,11 @@ public class JpaTest {
         HomeDAO daoh =new HomeDAO();
         Home home =new Home();
         home.setNbPieces(2);
-
         home.setPersonne(p);
-
-
-
-
         HeaterDAO hdao= new HeaterDAO();
         Heater heater= new Heater();
-
-
         ElectronicDeviceDAO edao=new ElectronicDeviceDAO();
         ElectronicDevice device=new ElectronicDevice();
-
         device.setHome(home);
         heater.setHome(home);
         heater.setPersonne(p);
@@ -88,11 +80,6 @@ public class JpaTest {
         daoh.create(home);
         edao.create(device);
         hdao.create(heater);
-
-
-        //System.out.print(dao.readAll().size());
-
-       // System.out.print(dao.readByName("toto").toString());
 
     }
 

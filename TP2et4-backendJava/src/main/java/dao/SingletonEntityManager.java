@@ -19,10 +19,9 @@ public class SingletonEntityManager  {
 
         if(firstInstance == null){
 
-            EntityManagerFactory factory = Persistence.createEntityManagerFactory("mysql");
+            EntityManagerFactory factory = Persistence.createEntityManagerFactory("mysql2");
              firstInstance = factory.createEntityManager();
         }
-        System.out.print("null");
         return firstInstance;
 
     }

@@ -24,15 +24,15 @@ public class ElectronicDeviceDAO implements GenericDao<ElectronicDevice,Long> {
 	}
 
 	public ElectronicDevice read(Long id) {
-		return EntityManagerHelper.getEntityManager().find(ElectronicDevice.class, id);
+		return SingletonEntityManager.getInstance().find(ElectronicDevice.class, id);
 	}
 
 	public ElectronicDevice update(ElectronicDevice t) {
-		return EntityManagerHelper.getEntityManager().merge(t);
+		return SingletonEntityManager.getInstance().merge(t);
 	}
 
 	public void delete(ElectronicDevice t) {
-		EntityManagerHelper.getEntityManager().remove(t);
+		SingletonEntityManager.getInstance().remove(t);
 		
 	}
 
